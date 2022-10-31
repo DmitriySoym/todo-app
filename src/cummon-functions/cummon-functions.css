@@ -1,0 +1,26 @@
+.btnStyle {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #8f979a;
+  background-color: var(--color-btn);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  color: rgb(125, 121, 121);
+}
+
+.btnStyle:hover {
+  filter: brightness(70%);
+}
+
+.inputStyle {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid var(--color-input-border);
+  width: 350px;
+  height: 38px;
+}
+
+.inputStyle:hover {
+  cursor: pointer;
+}

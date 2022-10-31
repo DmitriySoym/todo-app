@@ -1,1 +1,5 @@
-console.log("test");
+import { createApp } from "./components/app";
+
+const root = document.querySelector("#root");
+
+root.append(createApp());
