@@ -1,1 +1,7 @@
-export { createButton, createInput } from "./cummon-functions";
+export {
+  createButton,
+  createInput,
+  addTodoItem,
+  renderTodos,
+  todoArray,
+} from "./cummon-functions";

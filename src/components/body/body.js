@@ -6,3 +6,10 @@ export function createAppBody() {
 
   return itemsList;
 }
+
+// export let todoArray = [];
+
+// if (localStorage.getItem("todo")) {
+//   todoArray = JSON.parse(localStorage.getItem("todo"));
+//   displayMessages();
+// }

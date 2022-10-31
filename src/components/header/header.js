@@ -1,5 +1,6 @@
 import "./header.css";
 import { createInput, createButton } from "../../cummon-functions";
+import { addTodoItem } from "../data-todo";
 
 export const createHerader = () => {
   const header = document.createElement("div");
@@ -14,6 +15,13 @@ export const createHerader = () => {
   header.append(buttonAdd);
   header.append(buttonDeleteLast);
   header.append(buttonDeleteAll);
+
+  buttonAdd.addEventListener("click", function () {
+    if (todoInput.value === "") {
+      return;
+    }
+    addTodoItem(todoInput.value);
+  });
 
   return header;
 };
