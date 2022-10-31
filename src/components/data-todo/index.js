@@ -1,1 +1,8 @@
-export { addTodoItem, renderTodos } from "./data-todo";
+export {
+  addTodoItem,
+  renderTodos,
+  todoArray,
+  loadFromLocalStorage,
+  deleteAllFromLocalStorage,
+  deleteLastFromLocalStorage,
+} from "./data-todo";

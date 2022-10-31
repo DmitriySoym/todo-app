@@ -1,4 +1,5 @@
 import "./cummon-functions.css";
+import { todoArray } from "../components/data-todo";
 
 export const createButton = (buttonText, className) => {
   const button = document.createElement("button");
@@ -15,36 +16,3 @@ export const createInput = (inputPlaceholder, inputtype) => {
   input.classList.add("inputStyle");
   return input;
 };
-
-// export const addTodoItem = (valueOfMessage) => {
-//   const newTodo = {
-//     todo: valueOfMessage,
-//     checked: false,
-//     date: `${new Date().getDate()}/${
-//       new Date().getMonth() + 1
-//     }/${new Date().getFullYear()}`,
-//   };
-//   todoArray.push(newTodo);
-
-//   renderTodos();
-// };
-
-// export const renderTodos = () => {
-//   let displayMessage = "";
-//   todoArray.forEach(function (item, index) {
-//     displayMessage += `
-// 	  <li>
-// 	  <input type='checkbox'  id='item_${index}' ${item.checked ? "checked" : ""} >
-// 	  <label for='item_${index}'>${item.todo}</label>
-// 	  <span class="begintodo">Starting a task: <b>${item.date}</b></span>
-// 	  <button class = "deletCurrentTodo">X</button>
-// 	  </li>
-// 	  `;
-//   });
-
-//   console.log(displayMessage);
-
-//   return displayMessage.innerHTML;
-
-//   //   todoRow.innerHTML = displayMessage;
-// };

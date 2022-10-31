@@ -9,6 +9,10 @@ input[type="checkbox"] {
   width: 15px;
 }
 
+input:checked ~ label {
+  text-decoration: line-through;
+}
+
 label {
   font-size: 18px;
 }

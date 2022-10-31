@@ -1,4 +1,4 @@
 node_modules
 dist
-/.cach
+/.cache
 package-lock.json

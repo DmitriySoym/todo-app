@@ -6,7 +6,6 @@
   background-color: var(--color-btn);
   cursor: pointer;
   transition: all 0.3s linear;
-  color: rgb(125, 121, 121);
 }
 
 .btnStyle:hover {
