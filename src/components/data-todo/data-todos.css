@@ -1,0 +1,42 @@
+li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.begintodo {
+  position: absolute;
+  right: 40px;
+}
+
+.deletCurrentTodo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: red;
+  border-radius: 5px;
+  border-color: #8f979a;
+  color: #ffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.deletCurrentTodo:hover {
+  filter: brightness(70%);
+}
+
+.dateTodo {
+  border: 1px solid var(--color-input-border);
+  border-radius: 5px;
+  background-color: #ffff;
+  padding: 5px;
+}
