@@ -1,8 +1,5 @@
 export {
-  addTodoItem,
-  renderTodos,
   todoArray,
   loadFromLocalStorage,
-  deleteAllFromLocalStorage,
-  deleteLastFromLocalStorage,
+  saveToLocflStorage,
 } from "./data-todo";

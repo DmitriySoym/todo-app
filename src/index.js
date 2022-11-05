@@ -1,5 +1,6 @@
 import { createApp } from "./components/app";
-import { renderTodos } from "./components/data-todo";
+
+import { renderTodos } from "./cummon-functions";
 
 const root = document.querySelector("#root");
 

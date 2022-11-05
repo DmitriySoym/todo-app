@@ -1,10 +1,11 @@
 import "./header.css";
-import { createInput, createButton } from "../../cummon-functions";
 import {
+  createInput,
+  createButton,
   addTodoItem,
   deleteAllFromLocalStorage,
   deleteLastFromLocalStorage,
-} from "../data-todo";
+} from "../../cummon-functions";
 
 export const createHerader = () => {
   const header = document.createElement("div");
@@ -32,7 +33,6 @@ export const createHerader = () => {
   });
 
   buttonDeleteLast.addEventListener("click", function () {
-    //  deleteLastNote();
     deleteLastFromLocalStorage();
   });
 

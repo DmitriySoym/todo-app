@@ -1,1 +1,10 @@
-export { createButton, createInput, addTodoItem } from "./cummon-functions";
+export {
+  createButton,
+  createInput,
+  doneItem,
+  renderTodos,
+  addTodoItem,
+  deleteCurrentItem,
+  deleteLastFromLocalStorage,
+  deleteAllFromLocalStorage,
+} from "./cummon-functions";
